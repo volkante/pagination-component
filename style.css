@@ -11,9 +11,39 @@ body {
   font-family: "Inter", sans-serif;
   color: #343a40;
   line-height: 1;
+  font-size: 20px;
 }
 
 .pagination {
-  width: 300px;
+  width: 480px;
+  margin: 100px auto 0;
   color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  border: 1px solid #087f5b;
+  background-color: #fff;
+  border-radius: 60%;
+  cursor: pointer;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: #087f5b;
+}
+
+a {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.icon {
+  stroke: #087f5b;
+  width: 20px;
 }
