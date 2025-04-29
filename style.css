@@ -49,8 +49,8 @@ body {
 a {
   text-decoration: none;
   color: #343a40;
-  width: 32px;
-  height: 32px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -58,11 +58,6 @@ a {
 }
 
 a:hover {
-  background-color: #087f5b;
-  color: #fff;
-}
-
-a:active {
   background-color: #087f5b;
   color: #fff;
 }
